@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: #1a202c;
+  background-color: #f9fafb;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(135deg, #0080ff 0%, #00d4ff 100%);
+  color: white;
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.hero .cta {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.375rem;
+  background-color: #1a202c;
+  color: white;
+  cursor: pointer;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  padding: 3rem 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.pricing {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.cta {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  background-color: #0080ff;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
