@@ -112,7 +112,7 @@ body.dark-mode {
 
 .hero {
   text-align: center;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem; /* Reduced from 4rem to make header more compact */
   background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
   color: white;
   position: relative;
@@ -171,8 +171,8 @@ body.dark-mode {
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  padding: 4rem 1rem;
+  gap: 1.5rem; /* Reduced from 2rem */
+  padding: 2.5rem 1rem; /* Reduced from 4rem */
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -214,14 +214,14 @@ body.dark-mode {
 .pricing-section {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem; /* Reduced from 2rem */
 }
 
 .pricing-header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
   border-radius: 2rem;
-  padding: 3rem 2rem;
-  margin-bottom: 3rem;
+  padding: 2rem 2rem; /* Reduced from 3rem */
+  margin-bottom: 2rem; /* Reduced from 3rem */
   color: white;
   text-align: center;
   position: relative;
@@ -647,7 +647,7 @@ body.dark-mode {
 .reviews-section {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem; /* Reduced from 2rem */
 }
 
 .reviews-header {
@@ -797,7 +797,7 @@ body.dark-mode {
 .about-creator {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem; /* Reduced from 2rem */
 }
 
 .creator-card {
@@ -867,7 +867,7 @@ body.dark-mode {
 .affiliates-section {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem; /* Reduced from 2rem */
 }
 
 .affiliates-card {
@@ -967,11 +967,11 @@ body.dark-mode {
 
 .footer {
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem; /* Reduced from 3rem */
   font-size: 0.875rem;
   color: #64748b;
   border-top: 1px solid #e2e8f0;
-  margin-top: 4rem;
+  margin-top: 2.5rem; /* Reduced from 4rem */
 }
 
 /* Responsive Design */
@@ -999,11 +999,11 @@ body.dark-mode {
   
   .features {
     grid-template-columns: 1fr;
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem; /* Reduced from 2rem */
   }
   
   .pricing-header {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem; /* Reduced from 2rem */
   }
   
   .product-info h1 {
@@ -1032,7 +1032,7 @@ body.dark-mode {
 
 @media (max-width: 480px) {
   .hero {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem; /* Reduced from 2rem */
   }
   
   .hero h1 {
@@ -1040,7 +1040,7 @@ body.dark-mode {
   }
   
   .pricing-section {
-    padding: 1rem;
+    padding: 0.75rem; /* Reduced from 1rem */
   }
   
   .product-cards {
